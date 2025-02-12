@@ -8,7 +8,7 @@ const Cart = () => {
       <main className="container">
         <h2 className="py-4 text-center">Cart Items</h2>
         <div className="row">
-          {cartItems.length > 1 ? (
+          {cartItems.length > 0 ? (
             cartItems.map((item) => {
               return (
                 <div
